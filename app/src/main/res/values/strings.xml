@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SecretNotes</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register_username">register username</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="register_button">Register</string>
+    <string name="Password">Password</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

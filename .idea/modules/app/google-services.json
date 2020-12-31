@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "400421678099",
+    "project_id": "secretnotes-e4d31",
+    "storage_bucket": "secretnotes-e4d31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400421678099:android:f44c047d6bbc93f2bfa3e6",
+        "android_client_info": {
+          "package_name": "com.example.secretnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400421678099-nhbo66nfhfao227ucesp5e0s58vo5oi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.secretnotes",
+            "certificate_hash": "5e3b1bfbd7656b1b01692aa83ffa110e1b019be6"
+          }
+        },
+        {
+          "client_id": "400421678099-3csc736fa7k5tnsf7d1j809u6c0encta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDar6P0tIo4h-UbOmtQ5jNYwxvGd_8yssw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400421678099-3csc736fa7k5tnsf7d1j809u6c0encta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
