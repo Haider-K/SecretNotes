@@ -1,25 +1,20 @@
 package com.example.secretnotes;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
 
     private Button signupButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_user);
+        setContentView(R.layout.activity_login);
 
         signupButton = findViewById(R.id.signupButton);
         signupButton.setOnClickListener(new View.OnClickListener() {
@@ -32,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void moveToRegisterActivity() {
-        Intent intent = new Intent(MainActivity.this, activity_register_user.class);
+        Intent intent = new Intent(SignupActivity.this, activity_register_user.class);
         startActivity(intent);
     }
 
